@@ -7,7 +7,7 @@ const model = require("./model");
 exports.helpCmd = (rl) => {
   log('Comandos:');
   log(' h|help - Muestra esta ayuda');
-  log(' list - Listar los quizzes exixtentes');
+  log(' list - Listar los quizzes existentes');
   log(' show <id> - Muestra la pregunta y la respuesta del quiz indicado');
   log(' add - Añade un nuevo quiz interactivamente');
   log(' delete <id> - Borra el quiz indicado');
